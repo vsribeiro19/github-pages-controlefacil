@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgba(12, 176, 144, 0.6);
+    background: #008DB9;
 }
 
 h1 {
@@ -64,7 +64,7 @@ input {
     padding: 8px;
     margin-top: 5px;
     border-radius: .25rem;
-    border: 1px solid #0cb090;
+    border: 1px solid #008DB9;
     outline: none;
 }
 
@@ -72,15 +72,16 @@ input {
     top: 42%;
 }
 
+
 button {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 35%;
+    width: 40%;
     height: 50px;
     color: #fff;
-    background: rgba(12, 176, 144, 0.6);
+    background: #008DB9;
     border-radius: 25px;
     border: none;
     -webkit-border-radius: 25px;
@@ -89,11 +90,12 @@ button {
     -o-border-radius: 25px;
     font-size: 13pt;
     outline: none;
+    cursor: pointer;
 }
 
 button:hover {
     /* background: #0cb090;*/
-    background: linear-gradient(to bottom, #20a48a, #5ff1d5);
+    background: linear-gradient(to bottom, #008DB9, #016382);
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
