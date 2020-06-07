@@ -123,6 +123,10 @@ a {
     text-decoration: none;
 }
 
+a.login{
+    color: #fff;
+}
+
 #register {
     color: #2c3e50;
     font-weight: 550;
