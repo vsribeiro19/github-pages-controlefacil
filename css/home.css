@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----HEADER-----*/
+
+nav {
+    display: flex;
+    width: auto;
+    height: 70px;
+    background: #008DB9;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24pt;
+    color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+/*----FIM HEADER-----*/
+
+/*----SECTION BTN NEW REGISTER-----*/
+
+#new-register{
+    margin-top: 15%;
+}
+
+/*----MODAL-----*/
+/*Retira as linhas de todos os Modais e deixa o bg azul*/
+.modal-header,.modal-title, 
+.modal-body,.modal-footer{
+    background: #008DB9;
+    border: none!important;
+    height: 150px;
+}
+
+.form-control-money,.cifrao-title{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 45pt;
+    text-align: center;
+}
+
+.cifrao-title{
+    font-size: 25pt;
+}
+
+/*Modal > inputs*/
+input.cmp_input,.cmp_input_date{
+    width: 400px;
+    margin: 0 auto;
+}
+input.cmp_input_date{
+    margin-top: 20px;
+    width: 160px;
+
+}
+
+
+/*Modal > buttons*/
+
+
+

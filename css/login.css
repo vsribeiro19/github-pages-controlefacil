@@ -5,6 +5,7 @@
 }
 
 body {
+    /* rgba(12, 176, 144, 0.6) */
     background: #008DB9;
 }
 
@@ -64,7 +65,7 @@ input {
     padding: 8px;
     margin-top: 5px;
     border-radius: .25rem;
-    border: 1px solid #008DB9;
+    border: 1px solid #0cb090;
     outline: none;
 }
 
@@ -72,13 +73,12 @@ input {
     top: 42%;
 }
 
-
 button {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
+    width: 30%;
     height: 50px;
     color: #fff;
     background: #008DB9;
@@ -90,12 +90,16 @@ button {
     -o-border-radius: 25px;
     font-size: 13pt;
     outline: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     cursor: pointer;
 }
 
 button:hover {
     /* background: #0cb090;*/
-    background: linear-gradient(to bottom, #008DB9, #016382);
+    background: linear-gradient(to bottom, #027396, #008DB9);
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -122,4 +126,14 @@ a {
 #register {
     color: #2c3e50;
     font-weight: 550;
+}
+
+@media only screen and (max-width: 1366px) {
+    h1 {
+        margin-top: 8px;
+    }
+    .container {
+        top: 53.5%;
+        height: 605px;
+    }
 }
