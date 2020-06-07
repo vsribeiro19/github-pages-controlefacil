@@ -1,2 +1,2 @@
-O Controle Fácil é um projeto em desenvolvimento da disciplina de Projeto Interdisciplinar, do curso de Análise e Desenvolvimento de Sistemas, pelo Centro Universitário Moura Lacerda.
-Como o nome já diz, o projeto será um WebSite que tem como objetivo controlar as finanças de forma prática e simples. O sistema será desenvolvido em modo Beta.
+Para poder acessar o projeto, basta clicar em "clone or download" e baixar os arquivos html em sua máquina (acesso local).
+Ou, caso queira acessar a versão hospedada, basta acessar o link: https://controlefacil.netlify.app/
