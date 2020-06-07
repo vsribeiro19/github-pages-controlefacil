@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="icon" href="img/finance-icon.png">
+  <script defer src="js/insert.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Home | ControleFácil </title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h2 class="logo">
+          Controle Fácil
+        </h2>
+      </div>
+      </div>
+  </header>
+  <section id="title-user">
+    <div class="container text-center">
+      <h2 class="title">
+        Seja bem-vindo, <b><i>NomeUsuário</i></b>
+      </h2>
+    </div>
+  </section>
+  <!-- Button trigger modal -->
+  <div class="row">
+  <section id="new-register">
+    <div class="container text-center">
+      <div class="col-4">
+        <h2 class="register">
+          Inserir salário
+        </h2>
+        <button type="button" class="btn btn-dark btn-lg btn-add" data-toggle="modal"
+          data-target="#ModalNewRegister">+</button>
+      </div>
+    </div>
+  </section>
+  <section id="new-register">
+      <div class="container text-center">
+        <div class="col-4">
+          <h2 class="register">
+            Inserir salário
+          </h2>
+          <button type="button" class="btn btn-dark btn-lg btn-add" data-toggle="modal"
+            data-target="#ModalNewRegister">+</button>
+        </div>
+      </div>
+  </section>
+  <section id="new-register">
+    <div class="container text-center">
+      <div class="col-4">
+        <h2 class="register">
+          Inserir salário
+        </h2>
+        <button type="button" class="btn btn-dark btn-lg btn-add" data-toggle="modal"
+          data-target="#ModalNewRegister">+</button>
+      </div>
+    </div>
+  </section>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="ModalNewRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle">
+            <label class="cifrao-title">R$</lael>
+              <input type="text" class="form-control-money" id="exampleInputEmail1" aria-describedby="emailHelp"
+                value="0,00">
+          </h3>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group text-center">
+              <input type="email" class="form-control cmp_input" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Descrição">
+              <small id="emailHelp" class="form-text text-light">Ex: Inserir gastos, ganhos, contas, etc...</small>
+              <input type="email" class="form-control cmp_input_date" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="DD / MM / AAAA">
+            </div>
+            <div class="dropdown text-center">
+              <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tipo
+              </button>
+              <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Ganho</a>
+                <a class="dropdown-item" href="#">Gasto</a>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-light cancelar" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-outline-light">Salvar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <section id="new-register">
+        <div class="container text-center">
+            <h2 class="register">
+                Inserir registro
+            </h2>
+            <button data-modal-target="#modal" type="button" class="btn btn-dark btn-lg btn-add ">+</button>
+        </div>
+    </section>
+    <section> -->
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
